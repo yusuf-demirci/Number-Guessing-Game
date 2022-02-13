@@ -52,6 +52,7 @@ function guess(){
         else {
             report.innerText = `You got it! The number was ${answer}.`;
             gameOver = true;
+            return;
         }
 
         previousGuesses.push(guess)
