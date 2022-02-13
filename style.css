@@ -153,7 +153,7 @@ footer {
         border-radius: 0 0 4em 4em;
     }
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:360px){
     .interval {
         font-size: 0.9rem;
     }
