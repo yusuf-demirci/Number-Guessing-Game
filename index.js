@@ -17,6 +17,7 @@ function reset() {
     $(".attempts span")[0].innerText = "10"
     $("#guess-number")[0].value = "";
     $("#guess-number").focus();
+    previousGuesses = [];
     easyLevel.prop("checked", true);
 
     answer = randomNumber();
