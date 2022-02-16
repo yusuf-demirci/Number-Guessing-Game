@@ -21,7 +21,6 @@ function reset() {
     easyLevel.prop("checked", true);
 
     answer = randomNumber();
-    console.log(answer)
     gameOver = false;
 }
 
